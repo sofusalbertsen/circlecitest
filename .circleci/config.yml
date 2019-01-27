@@ -20,8 +20,8 @@ jobs:
       - checkout
 
       - persist_to_workspace:
-          root: .
-          paths: .*
+          root: ~/repo
+          paths: ./*
       - run: pwd
       - run: ls
 
